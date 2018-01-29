@@ -2,16 +2,16 @@
 
 return array(
 	'default' => array(
-		'user'=>'hackazon',
-		'password' => 'yourdbpass',
+		'user'=>'root',
+		'password' => 'root',
 		'driver' => 'PDOV',
 		
 		//'Connection' is required if you use the PDO driver
-		'connection'=>'mysql:host=localhost;dbname=hackazon',
+		'connection'=>'mysql:host=mysql;dbname=hackazon',
 		
 		// 'db' and 'host' are required if you use Mysql driver
 		'db' => 'hackazon',
-		'host' => 'localhost',
+		'host' => 'mysql',
         'port' => 3306
 	)
 );
